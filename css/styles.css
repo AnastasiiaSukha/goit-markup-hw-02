@@ -61,7 +61,10 @@ body {
 .header-link:focus {
   color: var(--accent-color);
 }
-
+.active,
+.header-link :hover {
+  color: var(--accent-color);
+}
 .header-mail {
   font-weight: 500;
   font-size: 14px;
