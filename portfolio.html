@@ -10,6 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
         <link rel="stylesheet" href="./css/styles.css" />
+        <style>
+            .header-link {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 1.14;
+                letter-spacing: 0.02em;
+                color: var(--main-title-color);
+            }
+        
+            .active,
+            .header-link:hover {
+                color: #2196f3;
+            }
+        </style>
 </head>
 <body>
     <header>
@@ -17,8 +31,8 @@
             <a class="link header-logo" href="index.html">Web<span class="logo-part">Studio</span></a>
     
 <ul class="list header-list">
-    <li class="header-item"><a class="link header-link" href="">Студия</a></li>
-    <li class="header-item"><a class="link header-link" href="./portfolio.html"> Портфолио</a> </li>
+    <li class="header-item"><a class="link header-link" href="./index.html">Студия</a></li>
+    <li class="header-item"><a class="link header-link active" href="./portfolio.html"> Портфолио</a> </li>
     <li class="header-item"><a class="link header-link" href="">Контакты</a> </li>
 </ul>
 </nav>
